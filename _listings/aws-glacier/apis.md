@@ -27,7 +27,7 @@ apis:
   tags: Uploads
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/accountid-vaults-vaultname-multipart-uploads-uploadid-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/accountid-vaults-vaultname-multipart-uploads-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
