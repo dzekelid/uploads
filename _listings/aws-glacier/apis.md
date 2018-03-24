@@ -13,8 +13,8 @@ tags:
 - Storage
 - Stack Network
 - Amazon Web Services
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Uploads
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/accountid-vaults-vaultname-multipart-uploads-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/accountid-vaults-vaultname-multipart-uploads-uploadid-delete.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
