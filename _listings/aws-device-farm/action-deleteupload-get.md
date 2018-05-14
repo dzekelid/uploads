@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Device Farm API
+  title: AWS Device Farm API Delete Upload
   version: 1.0.0
+  description: Deletes an upload given the upload ARN.
 schemes:
 - http
 produces:
