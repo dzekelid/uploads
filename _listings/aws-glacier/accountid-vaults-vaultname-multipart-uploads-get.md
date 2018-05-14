@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Glacier API
+  title: Amazon Glacier API List  Multipart  Uploads
   version: 1.0.0
+  description: DescriptionThis multipart upload operation lists in-progress multipart
+    uploads for the specified vault
 schemes:
 - http
 produces:
