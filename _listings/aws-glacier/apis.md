@@ -28,7 +28,31 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/accountid-vaults-vaultname-multipart-uploads-get.md
+- name: Amazon Glacier API Abort  Multipart  Upload
+  description: "DescriptionThis multipart upload operation aborts a multipart upload
+    identified by the upload\n\t\t\tID"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonGlacier.png
+  humanURL: https://aws.amazon.com/glacier/
+  baseURL: http:://{host}//
+  tags: Uploads
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/accountid-vaults-vaultname-multipart-uploads-uploadid-delete.md
 x-common:
+- type: x-change-log
+  url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/amazonglacier/latest/dev/amazon-glacier-api.html
+- type: x-faq
+  url: https://aws.amazon.com/glacier/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=140
+- type: x-getting-started
+  url: https://aws.amazon.com/glacier/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/glacier/pricing/
+- type: x-website
+  url: https://aws.amazon.com/glacier/
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
 - type: x-documentation
