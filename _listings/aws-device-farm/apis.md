@@ -26,15 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-device-farm/action-listuploads-get.md
-- name: AWS Device Farm API Delete Upload
-  description: Deletes an upload given the upload ARN.
+- name: AWS Device Farm API List Uploads
+  description: Gets information about uploads, given an AWS Device Farm project ARN.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
   humanURL: https://aws.amazon.com/device-farm/
   baseURL: http:://{host}//
   tags: Uploads
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-device-farm/action-deleteupload-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-device-farm/action-listuploads-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/blogs/mobile/tag/aws-device-farm/
