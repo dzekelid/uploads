@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Glacier API
+  title: Amazon Glacier API Abort  Multipart  Upload
   version: 1.0.0
+  description: "DescriptionThis multipart upload operation aborts a multipart upload
+    identified by the upload\n\t\t\tID"
 schemes:
 - http
 produces:
