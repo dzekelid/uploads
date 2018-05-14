@@ -28,17 +28,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/accountid-vaults-vaultname-multipart-uploads-get.md
-- name: Amazon Glacier API Complete  Multipart  Upload
-  description: "DescriptionYou call this multipart upload operation to inform Amazon
-    Glacier that all the archive parts have\n\t\t\tbeen uploaded and Amazon Glacier
-    can now assemble the archive from the uploaded parts"
+- name: Amazon Glacier API List  Multipart  Uploads
+  description: DescriptionThis multipart upload operation lists in-progress multipart
+    uploads for the specified vault
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonGlacier.png
   humanURL: https://aws.amazon.com/glacier/
   baseURL: http:://{host}//
   tags: Uploads
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/accountid-vaults-vaultname-multipart-uploads-uploadid-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/aws-glacier/accountid-vaults-vaultname-multipart-uploads-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
