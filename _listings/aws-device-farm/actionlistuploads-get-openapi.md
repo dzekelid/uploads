@@ -53,6 +53,50 @@ paths:
           description: OK
       tags:
       - Uploads
+  /?Action=CreateUpload:
+    get:
+      summary: Create Upload
+      description: Uploads an app or test scripts.
+      operationId: createUpload
+      x-api-path-slug: actioncreateupload-get
+      parameters:
+      - in: query
+        name: contentType
+        description: The uploads content type (for example, application/octet-stream)
+        type: string
+      - in: query
+        name: name
+        description: The uploads file name
+        type: string
+      - in: query
+        name: projectArn
+        description: The ARN of the project for the upload
+        type: string
+      - in: query
+        name: type
+        description: The uploads upload type
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Upload
+  /?Action=GetUpload:
+    get:
+      summary: Get Upload
+      description: Gets information about an upload.
+      operationId: getUpload
+      x-api-path-slug: actiongetupload-get
+      parameters:
+      - in: query
+        name: arn
+        description: The uploads ARN
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Upload
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

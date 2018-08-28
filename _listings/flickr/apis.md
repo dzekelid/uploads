@@ -11,37 +11,74 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Uploads
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Flickr People Get Upload Status
-  x-api-slug: flickr
-  description: Returns information for the calling user related to photo uploads.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.people.getUploadStatus
-  tags: People,GetUploadStatus
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/restmethodflickr-people-getuploadstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/restmethodflickr-people-getuploadstatus-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: The Flickr API consists of a set of callable methods, and some API
-    endpoints.  To perform an action using the Flickr API, you need to select a calling
-    convention, send a request to its endpoint specifying a method and some arguments,
-    and will receive a formatted response.
+- name: Flickr - Upload
+  x-api-slug: upload-post
+  description: Uploads a photo. Uploading apps can call the flickr.people.getUploadStatus
+    method in the regular API to obtain file and bandwidth limits for the user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: https://api.flickr.com//services/
-  tags: Uploads
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/upload-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/upload-post-openapi.md
+- name: Flickr - Photos Upload Check Tickets
+  x-api-slug: restmethodflickr-photos-upload-checktickets-get
+  description: Checks the status of one or more asynchronous photo upload tickets.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
+  humanURL: http://www.flickr.com/
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/restmethodflickr-photos-upload-checktickets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/restmethodflickr-photos-upload-checktickets-get-openapi.md
+- name: Flickr - Photos Upload Check Tickets
+  x-api-slug: restmethodflickr-photos-upload-checktickets-get
+  description: Checks the status of one or more asynchronous photo upload tickets.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
+  humanURL: http://www.flickr.com/
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/restmethodflickr-photos-upload-checktickets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/restmethodflickr-photos-upload-checktickets-get-openapi.md
+- name: Flickr - Upload
+  x-api-slug: upload-post
+  description: Uploads a photo. Uploading apps can call the flickr.people.getUploadStatus
+    method in the regular API to obtain file and bandwidth limits for the user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
+  humanURL: http://www.flickr.com/
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/upload-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uploads/master/_listings/flickr/upload-post-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://flat.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://flickr.stack.network
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
 - type: x-base
